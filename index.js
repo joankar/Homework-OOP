@@ -7,7 +7,7 @@ class Masina {
     this.culoare = culoare;
     this.kilometraj = kilometraj;
   }
-
+//get props
   get proprietati() {
     return `Masina[marca=${this.marca}, model=${this.model}, culoare=${this.culoare}, kilometraj=${this.kilometraj}]`;
   }
